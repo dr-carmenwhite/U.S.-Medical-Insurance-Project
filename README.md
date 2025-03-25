@@ -1,4 +1,4 @@
-# U.S. Medical Insurance Project
+# U.S. Medical Insurance Costs Project
 A group project to analyze U.S. Medical Data
 
 ## Project Goals
