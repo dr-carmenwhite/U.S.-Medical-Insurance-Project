@@ -48,8 +48,6 @@ This project explores real-world U.S. medical insurance data using Python and pa
 
 ---
 
-## 🛠 Tools Used
-=======
 ## 🛠️ Tools Used
 
 - Python 3
