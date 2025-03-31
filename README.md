@@ -1,7 +1,5 @@
 # 🩺 U.S. Medical Insurance Costs – Python Analysis
 
-This project explores real-world U.S. medical insurance data using Python and pandas to investigate trends, correlations, and cost differences based on demographics and lifestyle factors. The dataset includes variables such as age, sex, BMI, number of children, smoking status, region, and insurance charges.
-=======
 This project explores real-world U.S. medical insurance data using Python and pandas to investigate trends, correlations, and cost differences based on demographics and lifestyle factors. The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/mirichoi0218/insurance) and includes variables such as age, sex, BMI, number of children, smoking status, region, and insurance charges.
 
 ---
@@ -28,17 +26,6 @@ This project explores real-world U.S. medical insurance data using Python and pa
 - Correlation between:
   - BMI and insurance charges
   - Number of children and charges  
-- Output saved to: `results/carmen_results.json`
-
-### 👩🏾‍🔬 Anisha’s Analysis (`anisha-analysis.py`)
-- Average age of all patients
-- Average age of patients with at least one child
-=======
-- Calculated the number of patients per U.S. region
-- Compared average insurance charges between smokers and non-smokers
-- Measured correlation between:
-  - BMI and insurance charges
-  - Number of children and insurance charges
 - Output saved to: `results/carmen_results.json`
 
 ### 👩🏾‍🔬 Anisha’s Analysis (`anisha-analysis.py`)
