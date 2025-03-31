@@ -9,6 +9,11 @@
     "no": 8434.268297856202,
     "yes": 32050.23183153285
   },
+
   "bmi_charges_correlation": 0.2,
   "children_charges_correlation": 0.07
+=======
+  "bmi_charges_correlation": 0.1983,
+  "children_charges_correlation": 0.068
+
 }

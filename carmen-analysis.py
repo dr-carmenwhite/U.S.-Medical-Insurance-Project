@@ -1,6 +1,9 @@
 import pandas as pd
 import json
 
+=======
+# Load the dataset
+>>>>>>> anisha-analysis
 df = pd.read_csv("insurance.csv")
 
 # Regional breakdown
@@ -12,6 +15,7 @@ print(region_counts)
 smoker_costs = df.groupby('smoker')['charges'].mean()
 print("\n💸 Average insurance charges for smokers vs. non-smokers:")
 print(smoker_costs)
+
 
 # Correlations
 bmi_corr = df['bmi'].corr(df['charges'])
@@ -33,3 +37,11 @@ os.makedirs("results", exist_ok=True)
 
 with open("results/carmen_results.json", "w") as file:
     json.dump(results, file, indent=2)
+=======
+# Correlation: BMI vs. charges
+bmi_corr = df['bmi'].corr(df['charges'])
+print(f"\n📊 Correlation between BMI and insurance charges: {bmi_corr:.4f}")
+
+#
+
+
