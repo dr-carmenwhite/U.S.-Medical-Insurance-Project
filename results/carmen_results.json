@@ -1,0 +1,14 @@
+{
+  "region_counts": {
+    "southeast": 364,
+    "southwest": 325,
+    "northwest": 325,
+    "northeast": 324
+  },
+  "smoker_costs": {
+    "no": 8434.268297856202,
+    "yes": 32050.23183153285
+  },
+  "bmi_charges_correlation": 0.1983,
+  "children_charges_correlation": 0.068
+}
