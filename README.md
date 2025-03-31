@@ -1,21 +1,46 @@
-# U.S. Medical Insurance Costs Project
-A group project to analyze U.S. Medical Data
+# 🩺 U.S. Medical Insurance Costs – Python Analysis
 
-## Project Goals
-* Find out the average age of the patients in the dataset. [Anisha]
-* Analyze where a majority of the individuals are from. [Carmen]
-* Look at the different costs between smokers vs. non-smokers. [Carmen]
-* Figure out what the average age is for someone who has at least one child in this dataset. [Anisha]
-* Estimate medical insurance cost vs actual costs based on variables. (Hint: Look at BMI and Amount of Children) [Carmen]
+This project explores real-world U.S. medical insurance data using Python and pandas to investigate trends, correlations, and cost differences based on demographics and lifestyle factors. The dataset includes variables such as age, sex, BMI, number of children, smoking status, region, and insurance charges.
 
-## Requirements
-* Save the data set as python variables
-* Organize your findings into dictionaries, lists, or another convenient datatype.
-* Make predictions about what features are the most influential for an individual’s medical insurance charges based on your analysis.
-* Explore areas where the data may include bias and how that would impact potential use cases.
+---
 
-## Tasks
-See name next to Project Goal to see assignments.
+## 📊 Project Goals
 
-## Stretch Goal
-* Deploy a web app with data visualizations with the analyzed data.
+- Analyze the average age of patients in the dataset
+- Compare medical charges between smokers and non-smokers
+- Examine the correlation between BMI, number of children, and insurance costs
+- Explore which regions have the highest representation
+- Practice Git, GitHub, branching, and collaborative workflows
+
+---
+
+## 🧠 Summary of Analyses
+
+### 👩🏽‍💻 Carmen’s Analysis (`carmen-analysis.py`)
+- Regional representation by patient count
+- Average charges by smoking status
+- Correlation between:
+  - BMI and insurance charges
+  - Number of children and charges  
+- Output saved to: `results/carmen_results.json`
+
+### 👩🏾‍🔬 Anisha’s Analysis (`anisha-analysis.py`)
+- Average age of all patients
+- Average age of patients with at least one child
+- Output saved to: `results/anisha_results.json`
+
+---
+
+## 🛠 Tools Used
+
+- Python 3
+- pandas
+- JSON
+- Visual Studio Code
+- Git + GitHub (CLI)
+
+---
+
+## 🤝 Collaboration
+
+This project was completed collaboratively as part of Codecademy’s Data Science path.
