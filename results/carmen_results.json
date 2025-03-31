@@ -1,20 +1,14 @@
 {
-  "region_analysis": {
-    "counts": {
-      "southeast": 364,
-      "southwest": 325,
-      "northwest": 325,
-      "northeast": 324
-    },
-    "most_common_region": "southeast",
-    "count": 364
+  "region_counts": {
+    "southeast": 364,
+    "southwest": 325,
+    "northwest": 325,
+    "northeast": 324
   },
-  "smoker_vs_nonsmoker_costs": {
+  "smoker_costs": {
     "no": 8434.268297856202,
     "yes": 32050.23183153285
   },
-  "cost_estimates_based_on_variables": {
-    "bmi_to_charges_correlation": 0.19834096883362895,
-    "children_to_charges_correlation": 0.0679982268479048
-  }
+  "bmi_charges_correlation": 0.2,
+  "children_charges_correlation": 0.07
 }
