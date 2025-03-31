@@ -42,7 +42,6 @@ This project explores real-world U.S. medical insurance data using Python and pa
 - JSON
 - Visual Studio Code
 - Git + GitHub (CLI)
-=======
 - GitHub Pages (for documentation)
 
 ---
